@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579089105403.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8A975FE",
+    "lastKnownWriteTime" : 1579270536,
+    "last_content_update" : 1579270758648,
+    "path" : "C:/Users/I0415596/OneDrive - Sanofi/Projects/Monthly Cycle/R/drake_plan.R",
+    "project_path" : "R/drake_plan.R",
+    "properties" : {
+        "cursorPosition" : "26,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

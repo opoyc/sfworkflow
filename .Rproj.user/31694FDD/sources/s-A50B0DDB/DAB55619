@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579172858933.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "7|32|141|0|\n",
+    "hash" : "0",
+    "id" : "DAB55619",
+    "lastKnownWriteTime" : 1579270339,
+    "last_content_update" : 1579270339808,
+    "path" : "C:/Users/I0415596/OneDrive - Sanofi/Projects/Monthly Cycle/functions.R",
+    "project_path" : "functions.R",
+    "properties" : {
+        "cursorPosition" : "183,0",
+        "scrollLine" : "159",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
