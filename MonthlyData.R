@@ -179,7 +179,7 @@ Sales_data<-readxl::read_xlsx(paste0(path.Excel, "Forecast Comparison.xlsx"),
                               sheet = 1,col_names = T,skip=2) %>%
   filter(!is.na(`Item`)) %>% 
   filter(Item%not.in%Angola.products$Item) %>% 
-  filter(Item%not.in%pruned.products$Item) 
+  filter(Item%not.in%pruned.products$Item)
   
 
 if (run.in=="BCN") {
@@ -241,6 +241,9 @@ if (run.in=="BCN") {
   
 } 
 
+
+
+############ FROM HEERE
 #in the table outlier detection, there are some gmids without cleansed data.... adding cleansed data coming from forecast comparison into this table
 
 if (run.in=="BCN") {

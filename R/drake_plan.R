@@ -21,7 +21,7 @@ plan <- drake_plan(
   , model_params = get_model_params(fcst_conf, gbu, fcst_items_params)
   , angola_prods = get_angola_prods(fcst_conf)
   , prunned_prods = get_prunned_prods(fcst_conf, angola_prods)
-  , cleaned_data_before_outier <- get_cleaned_data_before_outlier(stat_outlier_clean, angola_prods, prunned_prods)
+  , cleaned_data_before_outier = get_cleaned_data_before_outlier(stat_outlier_clean, angola_prods, prunned_prods)
   , sales_raw_def = get_sales_raw_def(fcst_comp)
   , sales_cleansed = get_sales_cleansed(fcst_comp)
 )
@@ -29,3 +29,4 @@ plan <- drake_plan(
 config <- drake_config(plan)
 vis_drake_graph(config)
 make(plan)
+vis_drake_graph(config)
